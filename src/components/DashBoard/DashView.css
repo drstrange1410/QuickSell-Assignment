@@ -1,0 +1,32 @@
+.dashContainer {
+  display: flex;
+  overflow-x: auto; /* Use horizontal scrolling */
+  background: rgb(240, 240, 240);
+  padding: 10px;
+  gap: 15px;
+}
+
+.dashCardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.dashList {
+  display: flex;
+  gap: 20px;
+}
+
+.user-image-small {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.default-icon {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  text-align: center;
+}
